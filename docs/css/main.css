@@ -88,9 +88,6 @@ textarea {
 body {
   background: linear-gradient(to top, #666666, #000000);
   font-family: 'glacial_indifference';
-  padding: 0;
-  margin: 0;
-  min-width: 100vh;
 }
 .widget {
   display: flex;
