@@ -183,11 +183,30 @@ body {
   color: #5271ff;
 }
 .header-bg {
-  background-image: url(../img/bg-small.jpg);
+  background-image: url(../img/bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 50vh;
+  height: 100vh;
+  width: 100%;
+}
+.header__title {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  color: #5271ff;
+  background-color: #000;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1;
+  padding-top: 20px;
+  padding-right: 25px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+  border: 3px solid #fff;
+  margin-left: 35px;
+  box-shadow: 0 10px 10px #000;
+  transition: 0.2s ease inherit;
+  transition: 0.2s ease-in;
 }
 /* ==========================================================================
    Section
@@ -197,6 +216,7 @@ section {
 }
 section .learnabout__title {
   text-align: center;
+  margin-top: 10px;
 }
 section .learnabout__title p {
   font-size: 20px;
