@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+
+      <loc>http://www.wematcher.com/</loc>
+
+      <lastmod>2019-12-16</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.8</priority>
+
+    </url>
+
+      <url>
+
+      <loc>http://www.wematcher.com/sub-pages/about/</loc>
+
+      <lastmod>2019-12-16</lastmod>
+
+      <changefreq>yearly</changefreq>
+
+      <priority>0.8</priority>
+
+    </url>
+
+    <url>
+
+      <loc>http://www.wematcher.com/sub-pages/cookie-policy/</loc>
+
+      <lastmod>2019-12-16</lastmod>
+
+      <changefreq>yearly</changefreq>
+
+      <priority>0.8</priority>
+
+    </url>
+
+    <url>
+
+      <loc>http://www.wematcher.com/sub-pages/make-money-online/</loc>
+
+      <lastmod>2019-12-16</lastmod>
+
+      <changefreq>yearly</changefreq>
+
+      <priority>0.8</priority>
+
+    </url>
+
+    <url>
+
+      <loc>http://www.wematcher.com/sub-pages/user-agreement/</loc>
+
+      <lastmod>2019-12-16</lastmod>
+
+      <changefreq>yearly</changefreq>
+
+      <priority>0.8</priority>
+
+    </url>
+
+    <url>
+
+      <loc>http://www.wematcher.com/sub-pages/privacy-policy/</loc>
+
+      <lastmod>2019-12-16</lastmod>
+
+      <changefreq>yearly</changefreq>
+
+      <priority>0.8</priority>
+
+    </url>
+
+
+    <url>
+
+      <loc>http://www.wematcher.com/ru/</loc>
+
+      <lastmod>2019-12-19</lastmod>
+      
+      <changefreq>monthly</changefreq>
+
+      <priority>0.5</priority>
+
+    </url>
+
+   
+   <url>
+
+      <loc>http://www.wematcher.com/it/</loc>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.5</priority>
+
+   </url>
+
+</urlset>

@@ -1,0 +1,37 @@
+.language-switcher {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+
+    &::before {
+        content: url(../img/flags/translate.png);
+        padding-top: 2px;
+    } 
+
+    .language-name {
+        padding-left: 5px;
+    }
+
+    .language-switcher__italian {
+        &::after {
+            content: url(../img/flags/italian.png);
+            padding-top: 5px;
+        }
+    }
+
+    .language-switcher__russian {
+        &::after {
+            content: url(../img/flags/russian.png);
+            padding-top: 5px;
+        }
+    }
+
+    .language-switcher__english {
+        &::after {
+            content: url(../img/flags/english.png);
+            padding-top: 5px;
+        }
+    }
+}
+

@@ -6,7 +6,6 @@ $(document).ready(function () {
 		highlightSelector: "a"
 	});
 
-
 	AOS.init();
-
+	
 }); 
