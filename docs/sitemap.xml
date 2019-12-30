@@ -3,208 +3,69 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-
       <loc>http://www.wematcher.com/</loc>
-
+      <xhtml:link rel="alternate" hreflang="en" href="http://www.wematcher.com/" />
+      <xhtml:link rel="alternate" hreflang="ru" href="http://www.wematcher.com/ru/" /> 
+      <xhtml:link rel="alternate" hreflang="it" href="http://www.wematcher.com/it/" />
+      <xhtml:link rel="alternate" hreflang="x-default" href="http://www.wematcher.com/" /> 
       <lastmod>2019-12-16</lastmod>
-
       <changefreq>monthly</changefreq>
-
       <priority>1</priority>
-
     </url>
 
       <url>
-
       <loc>http://www.wematcher.com/sub-pages/about/</loc>
-
+      <xhtml:link rel="alternate" hreflang="en" href="http://www.wematcher.com/sub-pages/about/" />
+      <xhtml:link rel="alternate" hreflang="ru" href="http://www.wematcher.com/ru/sub-pages/about/" /> 
+      <xhtml:link rel="alternate" hreflang="it" href="http://www.wematcher.com/it/sub-pages/about/" /> 
+      <xhtml:link rel="alternate" hreflang="x-default" href="http://www.wematcher.com/sub-pages/about/" />
       <lastmod>2019-12-16</lastmod>
-
       <changefreq>yearly</changefreq>
-
       <priority>0.8</priority>
-
     </url>
 
     <url>
-
       <loc>http://www.wematcher.com/sub-pages/cookie-policy/</loc>
-
+      <xhtml:link rel="alternate" hreflang="en" href="http://www.wematcher.com/sub-pages/cookie-policy/" />
+      <xhtml:link rel="alternate" hreflang="ru" href="http://www.wematcher.com/ru/sub-pages/cookie-policy/" /> 
+      <xhtml:link rel="alternate" hreflang="it" href="http://www.wematcher.com/it/sub-pages/cookie-policy/" /> 
+      <xhtml:link rel="alternate" hreflang="x-default" href="http://www.wematcher.com/sub-pages/cookie-policy/" />
       <lastmod>2019-12-16</lastmod>
-
       <changefreq>yearly</changefreq>
-
       <priority>0.5</priority>
-
     </url>
 
     <url>
-
       <loc>http://www.wematcher.com/sub-pages/make-money-online/</loc>
-
+      <xhtml:link rel="alternate" hreflang="en" href="http://www.wematcher.com/sub-pages/make-money-online/" />
+      <xhtml:link rel="alternate" hreflang="ru" href="http://www.wematcher.com/ru/sub-pages/make-money-online/" /> 
+      <xhtml:link rel="alternate" hreflang="it" href="http://www.wematcher.com/it/sub-pages/make-money-online/" />
+      <xhtml:link rel="alternate" hreflang="x-default" href="http://www.wematcher.com/sub-pages/make-money-online/" /> 
       <lastmod>2019-12-16</lastmod>
-
       <changefreq>yearly</changefreq>
-
       <priority>0.8</priority>
-
     </url>
 
     <url>
-
       <loc>http://www.wematcher.com/sub-pages/user-agreement/</loc>
-
+      <xhtml:link rel="alternate" hreflang="en" href="http://www.wematcher.com/sub-pages/user-agreement/" />
+      <xhtml:link rel="alternate" hreflang="ru" href="http://www.wematcher.com/ru/sub-pages/user-agreement/" /> 
+      <xhtml:link rel="alternate" hreflang="it" href="http://www.wematcher.com/it/sub-pages/user-agreement/" /> 
+      <xhtml:link rel="alternate" hreflang="x-default" href="http://www.wematcher.com/sub-pages/user-agreement/" />
       <lastmod>2019-12-16</lastmod>
-
       <changefreq>yearly</changefreq>
-
       <priority>0.3</priority>
-
     </url>
 
     <url>
-
       <loc>http://www.wematcher.com/sub-pages/privacy-policy/</loc>
-
+      <xhtml:link rel="alternate" hreflang="en" href="http://www.wematcher.com/sub-pages/privacy-policy/" />
+      <xhtml:link rel="alternate" hreflang="ru" href="http://www.wematcher.com/ru/sub-pages/privacy-policy/" /> 
+      <xhtml:link rel="alternate" hreflang="it" href="http://www.wematcher.com/it/sub-pages/privacy-policy/" /> 
+      <xhtml:link rel="alternate" hreflang="x-default" href="http://www.wematcher.com/sub-pages/privacy-policy/" />
       <lastmod>2019-12-16</lastmod>
-
       <changefreq>yearly</changefreq>
-
       <priority>0.5</priority>
-
     </url>
-
-
-    <url>
-
-      <loc>http://www.wematcher.com/ru/</loc>
-
-      <lastmod>2019-12-19</lastmod>
-      
-      <changefreq>monthly</changefreq>
-
-      <priority>1</priority>
-
-    </url>
-
-    <url>
-
-      <loc>http://www.wematcher.com/ru/sub-pages/about/</loc>
-
-      <lastmod>2019-12-19</lastmod>
-      
-      <changefreq>monthly</changefreq>
-
-      <priority>0.8</priority>
-
-    </url>
-
-    <url>
-
-      <loc>http://www.wematcher.com/ru/sub-pages/make-money-online/</loc>
-
-      <lastmod>2019-12-19</lastmod>
-      
-      <changefreq>monthly</changefreq>
-
-      <priority>0.8</priority>
-
-    </url>
-
-    <url>
-
-      <loc>http://www.wematcher.com/ru/sub-pages/privacy-policy/</loc>
-
-      <lastmod>2019-12-19</lastmod>
-      
-      <changefreq>yearly</changefreq>
-
-      <priority>0.5</priority>
-
-    </url>
-
-    <url>
-
-      <loc>http://www.wematcher.com/ru/sub-pages/cookie-policy/</loc>
-
-      <lastmod>2019-12-19</lastmod>
-      
-      <changefreq>monthly</changefreq>
-
-      <priority>0.5</priority>
-
-    </url>
-
-    <url>
-
-      <loc>http://www.wematcher.com/ru/sub-pages/user-agreement/</loc>
-
-      <lastmod>2019-12-19</lastmod>
-      
-      <changefreq>monthly</changefreq>
-
-      <priority>0.3</priority>
-
-    </url>
-   
-   <url>
-
-      <loc>http://www.wematcher.com/it/</loc>
-
-      <changefreq>monthly</changefreq>
-
-      <priority>1</priority>
-
-   </url>
-
-   <url>
-
-      <loc>http://www.wematcher.com/it/sub-pages/about/</loc>
-
-      <changefreq>monthly</changefreq>
-
-      <priority>0.8</priority>
-
-   </url>
-
-   <url>
-
-      <loc>http://www.wematcher.com/it/sub-pages/make-money-online/</loc>
-
-      <changefreq>monthly</changefreq>
-
-      <priority>0.8</priority>
-
-   </url>
-
-   <url>
-
-      <loc>http://www.wematcher.com/it/sub-pages/cookie-policy/</loc>
-
-      <changefreq>yearly</changefreq>
-
-      <priority>0.5</priority>
-
-   </url>
-
-   <url>
-
-      <loc>http://www.wematcher.com/it/privacy-policy/</loc>
-
-      <changefreq>yearly</changefreq>
-
-      <priority>0.5</priority>
-
-   </url>
-
-   <url>
-
-      <loc>http://www.wematcher.com/it/sub-pages/user-agreement/</loc>
-
-      <changefreq>yearly</changefreq>
-
-      <priority>0.3</priority>
-
-   </url>
 
 </urlset>

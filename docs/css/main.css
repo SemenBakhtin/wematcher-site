@@ -111,19 +111,6 @@ body {
 /* ==========================================================================
    Buttons
    ========================================================================== */
-.share-button {
-  display: none;
-  background-color: transparent;
-  position: fixed;
-  top: 43vh;
-  left: -3vh;
-  transform: rotate(-90deg);
-  color: #5271ff;
-  border: solid 3px #5271ff;
-  padding: 3px 11px;
-  border-radius: 25px;
-  outline: none;
-}
 .section-button-wrap {
   text-align: center;
 }
@@ -167,6 +154,15 @@ body {
 .section-button:active {
   color: #5271ff;
 }
+.btn-outline-dark {
+  color: #5271ff;
+  border: solid 2px;
+  border-color: #5271ff;
+  border-radius: 15px;
+}
+.dropdown-menu {
+  background-color: lightgrey;
+}
 /* ==========================================================================
    Header
    ========================================================================== */
@@ -190,7 +186,7 @@ body {
   display: inline-block;
   margin-left: 35px;
   box-shadow: 0 10px 10px #000;
-  transition: 0.2s ease inherit;
+  transition: 0.2s ease;
   transition: 0.2s ease-in;
 }
 .logo a {
@@ -224,7 +220,7 @@ body {
   border: 3px solid #fff;
   margin-left: 35px;
   box-shadow: 0 10px 10px #000;
-  transition: 0.2s ease inherit;
+  transition: 0.2s ease;
   transition: 0.2s ease-in;
 }
 .language-switcher-wrap {
@@ -232,9 +228,15 @@ body {
 }
 .language-switcher {
   position: absolute;
-  top: 15px;
-  right: 10px;
+  top: 46px;
+  right: 18px;
   color: #fff;
+}
+@media (min-width: 768px) {
+  .language-switcher {
+    top: 15px;
+    right: 10px;
+  }
 }
 .language-switcher::before {
   content: url(../img/flags/translate.png);
@@ -368,6 +370,9 @@ section ol li:before {
   position: absolute;
   left: -1.4em;
 }
+.learnabout {
+  position: relative;
+}
 /* ==========================================================================
    Key Figures
    ========================================================================== */
@@ -459,6 +464,14 @@ section ol li:before {
 .keyfeatures .keyfeatures__title h4 {
   font-size: 15px;
 }
+@media (min-width: 768px) {
+  .keyfeatures .keyfeatures__title h1,
+  .keyfeatures .keyfeatures__title h2,
+  .keyfeatures .keyfeatures__title h3,
+  .keyfeatures .keyfeatures__title h4 {
+    font-size: 22px;
+  }
+}
 @media (min-width: 992px) {
   .keyfeatures .keyfeatures__title h1,
   .keyfeatures .keyfeatures__title h2,
@@ -472,6 +485,11 @@ section ol li:before {
   font-size: 10px;
   font-weight: 400;
   color: #fff;
+}
+@media (min-width: 768px) {
+  .keyfeatures .keyfeatures__block-text {
+    font-size: 18px;
+  }
 }
 @media (min-width: 992px) {
   .keyfeatures .keyfeatures__block-text {
@@ -534,6 +552,7 @@ section ol li:before {
   .footer .footer__links ul {
     display: flex;
     justify-content: space-between;
+    text-align: right;
   }
 }
 .footer .footer__links ul li {
