@@ -1,18 +1,3 @@
-/*
-PLEASE SEE ICONS/FREEBIE-LICENSE.txt AS THE ICONS ARE FROM http://www.dreamstale.com AND ARE SUBJECT TO A DIFFERENT LICENSE
-
-Copyright 2019 github.com/thekodester and thekodester.ca
-
-CONTRIBUTIONS:
-NOVEMBER 2019: github.com/tuxrafa
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-*/
-
 (function() {
   var urlFinal;
   var socialNetworks = {
@@ -28,104 +13,24 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
         name: "Whatsapp",
         url: "https://api.whatsapp.com/send?text={title}%0A{description}%0A{url}"
       },
-      email: {
-        name: "Email",
-        url: "mailto:?to=&amp;subject={title}&body={url}%0A{description}"
+      vkontakte: {
+        name: "Vkontakte",
+        url: "https://vk.com/share.php?url={url}"
+      },
+      telegram: {
+      name: "Telegram",
+      url: "https://t.me/share/url?url={url}&text={title}&to="
       },
       link: {
-        tinyurl: {
-          name: "TinyURL",
-          url: "https://tinyurl.com/create.php?url={url}"
-        },
         copy: {
           name: "Copy Link",
           url: "#socialShareCopy",
         }
       },
-      print: {
-        name: "Print",
-        url: "#socialSharePrint"
-      },
-      // ONLY THE ABOVE ICONS AND ONE BELOW ARE VISIBLE BY DEFAULT (THE MORE BUTTON LOADS A MODAL WITH THE OTHERS)
+
       add: {
-        name: "More",
-        url: "#socialShareMore"
       },
-      blogger: {
-        name: "Blogger",
-        url: "http://www.blogger.com/blog_this.pyra?t=&amp;u={url}&amp;n={title}"
-      },
-      diigo: {
-        name: "Diigo",
-        url: "http://www.diigo.com/post?url={url}&amp;title={title}&amp;desc={desc}"
-      },
-      evernote: {
-        name: "Evernote",
-        url: "https://www.evernote.com/clip.action?url={url}&amp;title={title}"
-      },
-      flipboard: {
-        name: "FlipBoard",
-        url: "https://share.flipboard.com/bookmarklet/popout?title={title}&url={url}"
-      },
-      // YOU CAN GROUP ICONS FROM THE SAME BRAND SO THEY SHARE AN ICON
-      google: {
-        gmail: {
-          name: "Gmail",
-          url: "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su={title}&body={url}%0A{description}"
-        },
-        gbookmark: {
-          name: "Google Bookmark",
-          url: "http://www.google.com/bookmarks/mark?op=add&bkmk={url}&title={title}"
-        }
-      },
-      linkedin: {
-        name: "LinkedIn",
-        url: "http://www.linkedin.com/shareArticle?mini=true&amp;url={url}&amp;title={title}&amp;ro=false&amp;summary={description}&amp;source="
-      },
-      livejournal: {
-        name: "LiveJournal",
-        url: "https://www.livejournal.com/update.bml?subject={title}&event={description}%20{url}"
-      },
-      myspace: {
-        name: "MySpace",
-        url: "http://www.myspace.com/Modules/PostTo/Pages/?u={url}&amp;t={title}"
-      },
-      pinterest: {
-        name: "Pinterest",
-        url: "http://www.pinterest.com/pin/create/button/?url={url}&amp;media={image}&amp;description={title}"
-      },
-      pocket: {
-        name: "Pocket",
-        url: "http://getpocket.com/save?url={url}&title={title}"
-      },
-      reddit: {
-        name: "Reddit",
-        url: "http://reddit.com/submit?url={url}&amp;title={title}"
-      },
-      skype: {
-        name: "Skype",
-        url: "https://web.skype.com/share?url={url}&text={title}"
-      },
-      telegram: {
-        name: "Telegram",
-        url: "https://t.me/share/url?url={url}&text={title}&to="
-      },
-      tumblr: {
-        name: "Tumblr",
-        url: "http://www.tumblr.com/share/link?url={url}&amp;name={title}&amp;description={description}"
-      },
-      yahoo: {
-        name: "Yahoo Mail",
-        url: "http://compose.mail.yahoo.com/?to=&subject={title}&body={url}%0A{description}"
-      },
-      qrcode: {
-        name: "GoQR.me",
-        url: "https://api.qrserver.com/v1/create-qr-code/?size=250x250&data={url}"
-      },
-      wordpress: {
-        name: "Wordpress",
-        url: "https://wordpress.com/wp-admin/press-this.php?u={url}&s={description}"
-      }
+    
     },
     totalNetworks = Object.keys(socialNetworks).length;
 

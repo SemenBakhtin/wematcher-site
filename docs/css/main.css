@@ -111,6 +111,19 @@ body {
 /* ==========================================================================
    Buttons
    ========================================================================== */
+.share-button {
+  display: none;
+  background-color: transparent;
+  position: fixed;
+  top: 43vh;
+  left: -3vh;
+  transform: rotate(-90deg);
+  color: #5271ff;
+  border: solid 3px #5271ff;
+  padding: 3px 11px;
+  border-radius: 25px;
+  outline: none;
+}
 .section-button-wrap {
   text-align: center;
 }
@@ -223,19 +236,16 @@ body {
   transition: 0.2s ease;
   transition: 0.2s ease-in;
 }
-.language-switcher-wrap {
-  position: relative;
-}
 .language-switcher {
   position: absolute;
-  top: 46px;
+  top: 31px;
   right: 18px;
   color: #fff;
 }
 @media (min-width: 768px) {
   .language-switcher {
     top: 15px;
-    right: 10px;
+    right: 15px;
   }
 }
 .language-switcher::before {
@@ -256,6 +266,208 @@ body {
 .language-switcher .language-switcher__english::after {
   content: url(../img/flags/english.png);
   padding-top: 5px;
+}
+/* ==========================================================================
+   Social share
+   ========================================================================== */
+.social-share-sticky {
+  position: absolute;
+  padding: 0em;
+  top: 33px;
+  left: 15px;
+  z-index: 999;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.social-share-sticky .dropdown-toggle::after {
+  display: none;
+  content: '';
+}
+.social-share-sticky .dropdown-menu-multi {
+  margin-left: 0.5rem !important;
+  top: -275% !important;
+  width: 15em;
+  padding: 1em .5em;
+}
+.social-share-sticky .dropdown-row > a.dropdown-item {
+  display: inline-block;
+  padding: 0.25em;
+  margin: 5px auto;
+  width: 25%;
+  color: #fff;
+  font-size: 0;
+}
+.social-share-sticky .dropdown-row p {
+  display: inline-block;
+  margin: 0rem .5rem;
+}
+.social-secondary-btn {
+  margin-top: 2em;
+}
+#socialShareModal .dropdown-row {
+  display: inline-block;
+  overflow: hidden;
+  height: 155px;
+}
+#socialShareModal .dropdown-item {
+  display: inline-block;
+  padding: 0em;
+  width: 33%;
+}
+#socialShareModal .btn-group-vertical {
+  bottom: 5rem;
+}
+/**
+   * @description Alters how far the menu of share button is from the main button.
+   * @purpose Small devices (landscape phones, 576px and up)
+   */
+@media (min-width: 576px) {
+  .social-share-sticky .dropdown-menu-multi {
+    left: 0 !important;
+  }
+}
+/**
+   * @description Alters the location of the main button and menu of share buttons to the left middle (icons still appear to the right).
+   * @purpose Large devices (desktops, 992px and up)
+   */
+@media (min-width: 768px) {
+  .social-share-sticky {
+    position: absolute;
+    padding: 0em 0.5em;
+    top: 5px;
+    left: 5px;
+    z-index: 999;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .social-share-sticky .dropdown-toggle span {
+    line-height: normal;
+  }
+  .social-share-sticky .dropdown-menu-multi {
+    transform: translate3d(40px, 0px, 0px);
+    margin-left: 0.5rem !important;
+    top: 0 !important;
+    left: 0 !important;
+    padding: 0.5rem;
+    width: 24em;
+  }
+  .social-share-sticky .dropdown-row > a.dropdown-item {
+    display: inline-block;
+    padding: 0.25em;
+    width: 50%;
+    color: #000;
+    font-size: 16px;
+  }
+}
+@media (min-width: 768px) and (min-width: 1200px) {
+  .social-share-sticky .dropdown-toggle span {
+    white-space: pre;
+  }
+}
+.modal-copy-container.copying .modal {
+  display: block;
+}
+.modal-copy-container.copying {
+  opacity: 0;
+}
+.modal-copy-container.show {
+  display: block;
+  position: fixed;
+  left: 25%;
+  width: 50%;
+  top: calc(-150%);
+  z-index: 999999;
+}
+.modal-copy-container.show .modal.modal-copy {
+  left: 25%;
+  width: 50%;
+  top: calc(-150%);
+  display: block;
+  position: fixed;
+  background: white;
+  height: 300px;
+  padding: 60px;
+  border: 1px solid black;
+  z-index: 10000;
+}
+.modal-copy-container.show:before {
+  display: block;
+  content: " ";
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: black;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  opacity: 0.7;
+}
+/* ==========================================================================
+   Social sharing icons
+   ========================================================================== */
+.icn-dreamstale {
+  vertical-align: middle;
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+}
+.icn-dreamstale-facebook::before {
+  background-image: url('../img/icons/share/facebook.svg');
+  background-repeat: no-repeat;
+  background-size: 48px 48px;
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  content: "";
+}
+.icn-dreamstale-vkontakte::before {
+  background-image: url('../img/icons/share/vkontakte.svg');
+  background-repeat: no-repeat;
+  background-size: 48px 48px;
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  content: "";
+}
+.icn-dreamstale-twitter::before {
+  background-image: url('../img/icons/share/twitter.svg');
+  background-repeat: no-repeat;
+  background-size: 48px 48px;
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  content: "";
+}
+.icn-dreamstale-whatsapp::before {
+  background-image: url('../img/icons/share/whatsapp.svg');
+  background-repeat: no-repeat;
+  background-size: 48px 48px;
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  content: "";
+}
+.icn-dreamstale-telegram::before {
+  background-image: url('../img/icons/share/telegram.svg');
+  background-repeat: no-repeat;
+  background-size: 48px 48px;
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  content: "";
+}
+.icn-dreamstale-link::before {
+  background-image: url('../img/icons/share/link.svg');
+  background-repeat: no-repeat;
+  background-size: 48px 48px;
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  content: "";
 }
 /* ==========================================================================
    Section

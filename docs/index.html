@@ -23,9 +23,7 @@
     <!-- Syles-->
     <link rel="stylesheet" href="libs/bootstrap-4.3.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="libs/hover-master/css/hover-min.css">
-    <link rel="stylesheet" href="css/social.css">
-    <link rel="stylesheet" href="img/icons/share/all.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- FavIcons-->
     <link rel="shortcut icon" href="img/favicons/Favicon64.jpg" type="image/x-icon">
@@ -79,10 +77,10 @@
     <!--
     if lt IE 8
     p.browserupgrade
-    | Вы используете
-    strong устаревшую
-    |  версию браузера. Пожалуйста
-    a(href='http://browsehappy.com/') обновите свой браузер
+    | Р’С‹ РёСЃРїРѕР»СЊР·СѓРµС‚Рµ
+    strong СѓСЃС‚Р°СЂРµРІС€СѓСЋ
+    |  РІРµСЂСЃРёСЋ Р±СЂР°СѓР·РµСЂР°. РџРѕР¶Р°Р»СѓР№СЃС‚Р°
+    a(href='http://browsehappy.com/') РѕР±РЅРѕРІРёС‚Рµ СЃРІРѕР№ Р±СЂР°СѓР·РµСЂ
     | .
     
     -->
@@ -91,28 +89,9 @@
     <div class="widget" id="wematcher_widget">
     </div>
 
-    <!-- Language switcher -->
-    <div class="container language-switcher-wrap">
-      <div class="language-switcher btn-group">
-        <div class="language-switcher__dropdown-menu dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
-          aria-expanded="false">
-          <span class="language-name">English</span>
-        </div>
-        <div class="dropdown-menu dropdown-menu-right">
-          <a href="it/" class="dropdown-item language-switcher__italian">
-            <span class="language-name">Italiano</span>
-          </a>
-          <a rel="alternate" hreflang="ru" href="ru/" class="dropdown-item language-switcher__russian">
-            <span class="language-name">Russian</span>
-          </a>
-        </div>
-      </div>
-    </div>
-    <!-- // Language switcher -->
-
     <!--Learnabout section-->
     <div class="learnabout">
-      
+
       <!-- Social share button -->
       <div class="social-share social-share-sticky" data-social-share="{'iconSrc': '/img/icons/share/', title': 'Page Title', image: '/img/icons/share/', 'description': 'Page Description'}">
         <div class="btn-group dropright">
@@ -123,9 +102,24 @@
           <div class="dropdown-menu dropdown-menu-right dropdown-menu-multi"></div>
         </div>
       </div>
-       <!-- // Social share button -->
+        <!-- // Social share button -->
 
-
+      <!-- Language switcher -->
+        <div class="language-switcher btn-group">            
+          <div class="language-switcher__dropdown-menu dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            <span class="language-name">English</span>
+          </div>
+          <div class="dropdown-menu dropdown-menu-right">
+            <a href="it/" class="dropdown-item language-switcher__italian">
+              <span class="language-name">Italiano</span>
+            </a>
+            <a rel="alternate" hreflang="ru" href="ru/" class="dropdown-item language-switcher__russian">
+              <span class="language-name">Russian</span>
+            </a>
+          </div>
+        </div>
+      <!-- // Language switcher -->
 
       <section class="container section">
         <div class="learnabout__title">
@@ -311,12 +305,13 @@
               </div>
               <div class="footer__social clearfix"><a class="footer__social-item hvr-buzz-out" href="https://vk.com/wematcher_vk" target="_blank"><i class="fa fa-vk fa-3x" aria-hidden="true"></i></a><a class="footer__social-item hvr-buzz-out" href="https://www.facebook.com/wematcher/" target="_blank"><i class="fa fa-facebook fa-3x" aria-hidden="true"></i></a><a class="footer__social-item hvr-buzz-out" href="https://www.instagram.com/wematcher/" target="_blank"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a><a class="footer__social-item hvr-buzz-out" href="https://t.me/wematcher" target="_blank"><i class="fa fa-telegram fa-3x" aria-hidden="true"></i></a></div>
             </div>
-            <div class="footer__copyright">© WeMatcher 2019. All Rights Reserved </div>
+            <div class="footer__copyright">В© WeMatcher 2019. All Rights Reserved </div>
           </div>
         </div>
       </div>
     </footer>
     <!-- //Footer-->
+    <button class="share-button" href="#">share&invite</button>
 
     <!-- Vendors scripts-->
     <!--
@@ -333,7 +328,10 @@
     <!-- Internal scripts-->
     <script src="js/widget.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/socialshare.js"></script>
+    <script src="js/socialshare.min.js"></script>
+ 
+
+
 
     <script> var widget = new WeMatcherWidget("wematcher_widget"); </script>
     

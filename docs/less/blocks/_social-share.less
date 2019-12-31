@@ -1,23 +1,8 @@
-/*
-PLEASE SEE ICONS/FREEBIE-LICENSE.txt AS THE ICONS ARE FROM http://www.dreamstale.com AND ARE SUBJECT TO A DIFFERENT LICENSE
+/* ==========================================================================
+   Social share
+   ========================================================================== */
 
-Copyright 2019 github.com/thekodester and thekodester.ca
-
-CONTRIBUTIONS:
-NOVEMBER 2019: github.com/tuxrafa
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-*/
-
-/**
- * @description Initial styles place main button in bottom left corner with share buttons appearing in a menu to the right (with no text/only icons).
- */
-
- .social-share-sticky {
+   .social-share-sticky {
     position: absolute;
     padding: 0em;
     top: 33px;
@@ -129,9 +114,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
       font-size: 16px;
     }
   }
-  
-  /* modal copy */
-  
+    
   .modal-copy-container.copying .modal {
       display: block;
   }
@@ -174,4 +157,73 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
       z-index: 999;
       opacity: 0.7;
   }
-  
+
+  /* ==========================================================================
+   Social sharing icons
+   ========================================================================== */
+   .icn-dreamstale {
+    vertical-align: middle;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+  }
+
+  .icn-dreamstale-facebook::before {
+    background-image: url('../img/icons/share/facebook.svg');
+    background-repeat: no-repeat;
+    background-size: 48px 48px;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    content: "";
+  }
+
+  .icn-dreamstale-vkontakte::before {
+    background-image: url('../img/icons/share/vkontakte.svg');
+    background-repeat: no-repeat;
+    background-size: 48px 48px;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    content: "";
+  }
+
+  .icn-dreamstale-twitter::before {
+    background-image: url('../img/icons/share/twitter.svg');
+    background-repeat: no-repeat;
+    background-size: 48px 48px;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    content: "";
+  }
+
+  .icn-dreamstale-whatsapp::before {
+    background-image: url('../img/icons/share/whatsapp.svg');
+    background-repeat: no-repeat;
+    background-size: 48px 48px;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    content: "";
+  }
+
+  .icn-dreamstale-telegram::before {
+    background-image: url('../img/icons/share/telegram.svg');
+    background-repeat: no-repeat;
+    background-size: 48px 48px;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    content: "";
+  }
+
+  .icn-dreamstale-link::before {
+    background-image: url('../img/icons/share/link.svg');
+    background-repeat: no-repeat;
+    background-size: 48px 48px;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    content: "";
+  }
