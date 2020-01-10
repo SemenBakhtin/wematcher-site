@@ -1,71 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
     <url>
-      <loc>http://www.wematcher.com/</loc>
-      <xhtml:link rel="alternate" hreflang="en" href="http://www.wematcher.com/" />
-      <xhtml:link rel="alternate" hreflang="ru" href="http://www.wematcher.com/ru/" /> 
-      <xhtml:link rel="alternate" hreflang="it" href="http://www.wematcher.com/it/" />
-      <xhtml:link rel="alternate" hreflang="x-default" href="http://www.wematcher.com/" /> 
-      <lastmod>2019-12-16</lastmod>
+      <loc>https://www.wematcher.com/</loc>
+      <xhtml:link rel="alternate" hreflang="en" href="https://www.wematcher.com/" />
+      <xhtml:link rel="alternate" hreflang="ru" href="https://www.wematcher.com/ru/" /> 
+      <xhtml:link rel="alternate" hreflang="it" href="https://www.wematcher.com/it/" />
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://www.wematcher.com/" /> 
+      <lastmod>2020-01-10</lastmod>
       <changefreq>monthly</changefreq>
-      <priority>1</priority>
     </url>
 
       <url>
-      <loc>http://www.wematcher.com/sub-pages/about/</loc>
-      <xhtml:link rel="alternate" hreflang="en" href="http://www.wematcher.com/sub-pages/about/" />
-      <xhtml:link rel="alternate" hreflang="ru" href="http://www.wematcher.com/ru/sub-pages/about/" /> 
-      <xhtml:link rel="alternate" hreflang="it" href="http://www.wematcher.com/it/sub-pages/about/" /> 
-      <xhtml:link rel="alternate" hreflang="x-default" href="http://www.wematcher.com/sub-pages/about/" />
-      <lastmod>2019-12-16</lastmod>
+      <loc>https://www.wematcher.com/about/</loc>
+      <xhtml:link rel="alternate" hreflang="en" href="https://www.wematcher.com/about/" />
+      <xhtml:link rel="alternate" hreflang="ru" href="https://www.wematcher.com/ru/о-нас/" /> 
+      <xhtml:link rel="alternate" hreflang="it" href="https://www.wematcher.com/it/su-di-noi/" /> 
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://www.wematcher.com/about/" />
+      <lastmod>2020-01-10</lastmod>
       <changefreq>yearly</changefreq>
-      <priority>0.8</priority>
     </url>
 
     <url>
-      <loc>http://www.wematcher.com/sub-pages/cookie-policy/</loc>
-      <xhtml:link rel="alternate" hreflang="en" href="http://www.wematcher.com/sub-pages/cookie-policy/" />
-      <xhtml:link rel="alternate" hreflang="ru" href="http://www.wematcher.com/ru/sub-pages/cookie-policy/" /> 
-      <xhtml:link rel="alternate" hreflang="it" href="http://www.wematcher.com/it/sub-pages/cookie-policy/" /> 
-      <xhtml:link rel="alternate" hreflang="x-default" href="http://www.wematcher.com/sub-pages/cookie-policy/" />
-      <lastmod>2019-12-16</lastmod>
+      <loc>https://www.wematcher.com/cookie-policy/</loc>
+      <xhtml:link rel="alternate" hreflang="en" href="https://www.wematcher.com/cookie-policy/" />
+      <xhtml:link rel="alternate" hreflang="ru" href="https://www.wematcher.com/ru/политика-cookie/" /> 
+      <xhtml:link rel="alternate" hreflang="it" href="https://www.wematcher.com/it/gestione-dei-cookie/" /> 
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://www.wematcher.com/cookie-policy/" />
+      <lastmod>2020-01-10</lastmod>
       <changefreq>yearly</changefreq>
-      <priority>0.5</priority>
     </url>
 
     <url>
-      <loc>http://www.wematcher.com/sub-pages/make-money-online/</loc>
-      <xhtml:link rel="alternate" hreflang="en" href="http://www.wematcher.com/sub-pages/make-money-online/" />
-      <xhtml:link rel="alternate" hreflang="ru" href="http://www.wematcher.com/ru/sub-pages/make-money-online/" /> 
-      <xhtml:link rel="alternate" hreflang="it" href="http://www.wematcher.com/it/sub-pages/make-money-online/" />
-      <xhtml:link rel="alternate" hreflang="x-default" href="http://www.wematcher.com/sub-pages/make-money-online/" /> 
-      <lastmod>2019-12-16</lastmod>
+      <loc>https://www.wematcher.com/make-money-online/</loc>
+      <xhtml:link rel="alternate" hreflang="en" href="https://www.wematcher.com/make-money-online/" />
+      <xhtml:link rel="alternate" hreflang="ru" href="https://www.wematcher.com/ru/зарабатывай-онлайн/" /> 
+      <xhtml:link rel="alternate" hreflang="it" href="https://www.wematcher.com/it/guadagnare-online/" />
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://www.wematcher.com/make-money-online/" /> 
+      <lastmod>2020-01-10</lastmod>
       <changefreq>yearly</changefreq>
-      <priority>0.8</priority>
     </url>
 
     <url>
-      <loc>http://www.wematcher.com/sub-pages/user-agreement/</loc>
-      <xhtml:link rel="alternate" hreflang="en" href="http://www.wematcher.com/sub-pages/user-agreement/" />
-      <xhtml:link rel="alternate" hreflang="ru" href="http://www.wematcher.com/ru/sub-pages/user-agreement/" /> 
-      <xhtml:link rel="alternate" hreflang="it" href="http://www.wematcher.com/it/sub-pages/user-agreement/" /> 
-      <xhtml:link rel="alternate" hreflang="x-default" href="http://www.wematcher.com/sub-pages/user-agreement/" />
-      <lastmod>2019-12-16</lastmod>
+      <loc>https://www.wematcher.com/user-agreement/</loc>
+      <xhtml:link rel="alternate" hreflang="en" href="https://www.wematcher.com/user-agreement/" />
+      <xhtml:link rel="alternate" hreflang="ru" href="https://www.wematcher.com/ru/пользовательское-соглашение/" /> 
+      <xhtml:link rel="alternate" hreflang="it" href="https://www.wematcher.com/it/accordo-per-gli-utenti/" /> 
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://www.wematcher.com/user-agreement/" />
+      <lastmod>2020-01-10</lastmod>
       <changefreq>yearly</changefreq>
-      <priority>0.3</priority>
     </url>
 
     <url>
-      <loc>http://www.wematcher.com/sub-pages/privacy-policy/</loc>
-      <xhtml:link rel="alternate" hreflang="en" href="http://www.wematcher.com/sub-pages/privacy-policy/" />
-      <xhtml:link rel="alternate" hreflang="ru" href="http://www.wematcher.com/ru/sub-pages/privacy-policy/" /> 
-      <xhtml:link rel="alternate" hreflang="it" href="http://www.wematcher.com/it/sub-pages/privacy-policy/" /> 
-      <xhtml:link rel="alternate" hreflang="x-default" href="http://www.wematcher.com/sub-pages/privacy-policy/" />
-      <lastmod>2019-12-16</lastmod>
+      <loc>https://www.wematcher.com/privacy-policy/</loc>
+      <xhtml:link rel="alternate" hreflang="en" href="https://www.wematcher.com/privacy-policy/" />
+      <xhtml:link rel="alternate" hreflang="ru" href="https://www.wematcher.com/ru/политика-конфиденциальности/" /> 
+      <xhtml:link rel="alternate" hreflang="it" href="https://www.wematcher.com/it/privacy-policy/" /> 
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://www.wematcher.com/privacy-policy/" />
+      <lastmod>2020-01-10</lastmod>
       <changefreq>yearly</changefreq>
-      <priority>0.5</priority>
     </url>
 
 </urlset>

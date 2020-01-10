@@ -32,5 +32,7 @@ Allow: /wp-*.svg
 Allow: /wp-*.pdf
 Allow: /wp-admin/admin-ajax.php
 
-Sitemap: https://wematcher.com/sitemap.xml     
+Sitemap: https://wematcher.com/sitemap.xml
+Sitemap: https://wematcher.com/ru/sitemap.xml
+Sitemap: https://wematcher.com/it/sitemap.xml     
 Host: https://wematcher.com
