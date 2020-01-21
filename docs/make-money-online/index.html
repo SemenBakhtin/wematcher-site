@@ -19,12 +19,18 @@
   <!-- Titles-->
   <title>Make Money Online - Earn While Chatting</title>
   <meta name="description" content="Make Money Online with the our unique money making website. Earn a full income while chatting.">
+
+  <!-- Social sharing -->
+  <meta property="og:title" content="Need More Money? Get Rich Now!" />
+  <meta property="og:description" content="Learn how to make money online - 1500 Euro per month are waiting for you." />
+  <meta property="og:image" content="../img/share2.jpg" />
   
   <!-- Syles-->
   <link rel="stylesheet" href="../libs/bootstrap-4.3.1-dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="../libs/hover-master/css/hover-min.css">
   <link rel="stylesheet" href="../css/main.min.css">
   <!-- FavIcons-->
+
   <link rel="shortcut icon" href="../img/favicons/Favicon64.jpg" type="image/x-icon">
   <link rel="apple-touch-icon" href="../img/favicons/Favicon180.jpg">
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries-->
@@ -44,11 +50,11 @@
   <link rel="alternate" hreflang="it" href="https://wematcher.com/it/accordo-per-gli-utenti/">
 
   <link rel="alternate" hreflang="ru" href="https://wematcher.com/ru/">
-  <link rel="alternate" hreflang="ru" href="https://wematcher.com/ru/о-нас/">
-  <link rel="alternate" hreflang="ru" href="https://wematcher.com/ru/политика-cookie/">
-  <link rel="alternate" hreflang="ru" href="https://wematcher.com/ru/зарабатывай-онлайн/">
-  <link rel="alternate" hreflang="ru" href="https://wematcher.com/ru/политика-конфиденциальности/">
-  <link rel="alternate" hreflang="ru" href="https://wematcher.com/ru/пользовательское-соглашение/">
+  <link rel="alternate" hreflang="ru" href="https://wematcher.com/ru/about/">
+  <link rel="alternate" hreflang="ru" href="https://wematcher.com/ru/cookie-policy/">
+  <link rel="alternate" hreflang="ru" href="https://wematcher.com/ru/make-money-online/">
+  <link rel="alternate" hreflang="ru" href="https://wematcher.com/ru/privacy-policy/">
+  <link rel="alternate" hreflang="ru" href="https://wematcher.com/ru/user-agreement/">
 
   <link rel="alternate" hreflang="en" href="https://wematcher.com/">
   <link rel="alternate" hreflang="en" href="https://wematcher.com/about/">
@@ -81,11 +87,26 @@
   <header id="top">
     <div class="logo hvr-pulse clearfix">
       <div class="logo-inner">
-        <a hre../" target="_self">WeMatcher</a>
+        <a href="../" target="_self">WeMatcher</a>
       </div>
     </div>
   </header>
   <!-- // Header -->
+
+    <!-- Social share button -->
+    <div class="social-share-sticky__wrap">
+      <div class="social-share social-share-sticky social-share-sticky--text-pages" data-social-share="{'iconSrc': '../img/icons/share/', title': 'Page Title', image: '../img/icons/share/', 'description': 'Page Description'}">
+        <div class="btn-group dropright">
+          <button class="btn btn-outline-dark dropdown-toggle text-uppercase" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span id="socialShareBtnText" aria-hidden="true">Share</span>
+            <span class="sr-only">Share this page</span>
+          </button>
+          <div class="dropdown-menu dropdown-menu-right dropdown-menu-multi"></div>
+        </div>
+      </div>
+    </div>
+    <!-- // Social share button -->
+
   
   <!-- Section -->
   <section class="section">
@@ -239,11 +260,13 @@
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     -->
   <script src="../libs/jquery/jquery-3.4.1.min.js"></script>
+  <script src="../libs/popper/popper.min.js"></script>
   <script src="../libs/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
-  <script src="../libs/pagescroll2id/jquery.malihu.PageScroll2id.js"></script>
   
   <!-- Internal scripts-->
   <script src="../js/main.js"></script>
+  <script src="../js/socialshare.min.js"></script>
 </body>
 
 </html>
+

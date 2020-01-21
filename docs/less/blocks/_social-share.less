@@ -2,6 +2,10 @@
    Social share
    ========================================================================== */
 
+   .social-share-sticky__wrap {
+     position: relative;
+   }
+   
    .social-share-sticky {
     position: absolute;
     padding: 0em;
@@ -12,6 +16,11 @@
     border: none;
     outline: none;
     cursor: pointer;
+  }
+
+  .social-share-sticky--text-pages {
+    top: -45px;
+    left: 35px;
   }
   
   .social-share-sticky .dropdown-toggle::after {
@@ -87,6 +96,11 @@
       cursor: pointer;
     }
 
+    .social-share-sticky--text-pages {
+      top: -38px;
+      left: 30px;
+    }
+
     .social-share-sticky .dropdown-toggle span {
       line-height: normal;
     }
@@ -94,6 +108,10 @@
     @media (min-width:1200px) {
         .social-share-sticky .dropdown-toggle span {
             white-space: pre;
+        }
+        .social-share-sticky--text-pages {
+          top: 15px;
+          left: 5px;
         }
     }
   

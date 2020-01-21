@@ -1,4 +1,15 @@
+<IfModule>
+
+#Redirect to www location with subdirectory
+RewriteEngine on
+RewriteBase /
+RewriteCond %{HTTP_HOST} wematcher.com [NC]
+RewriteRule ^(.*)$ http://www.wematcher.com/ru/index.html [R=301,NC]
+
+</IfModule>
+
 <IfModule mod_expires.c>
+
   ExpiresActive On
 
   # Images
@@ -21,4 +32,12 @@
   # Others
   ExpiresByType application/pdf "access plus 1 month"
   ExpiresByType application/x-shockwave-flash "access plus 1 month"
+
+  # if user didn't specify a valid language subfolder
+RewriteCond %{REQUEST_URI} !^/(ru|it)/
+# redirect user to default language subfolder
+RewriteRule ^(.*)$ /en/$1 [L,R=301]
 </IfModule>
+
+
+

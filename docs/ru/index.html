@@ -1,11 +1,9 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="it">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
     <!-- Global site tag (gtag.js) - Google Analytics-->
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-153533890-1"></script>
     <script>
@@ -17,7 +15,6 @@
       gtag('config', 'UA-153533890-1');
       
     </script>
-
     <!-- Titles-->
     <title>WeMatcher: бесплатный видео чат и знакомств</title>
     <meta name="description" content="Присоединяйтесь сегодня, чтобы получить последний бесплатный видеочат и лучшее приложение для знакомств от WeMatcher.">
@@ -25,12 +22,18 @@
     <!-- Yandex and Bing -->
     <meta name="yandex-verification" content="ead634e3540cfedd" />
     <meta name="msvalidate.01" content="4A6CEB62794229680CB402A3A14867D8" />
+
+    <!-- Social sharing -->
+    <meta property="og:title" content="Я Общаюсь и Знакомлюсь с Новыми Людьми: Присоединяйтесь!" />
+    <meta property="og:description" content="Присоединяйся к новой соцсети для свиданий WeMatcher, где тысячи людей знакомятся и флиртуют каждый день. " />
+    <meta property="og:image" content="../img/share1.jpg" />
         
     <!-- Syles-->
     <link rel="stylesheet" href="../libs/bootstrap-4.3.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../libs/hover-master/css/hover-min.css">
     <link rel="stylesheet" href="../css/main.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- FavIcons-->
     <link rel="shortcut icon" href="../img/favicons/Favicon64.jpg" type="image/x-icon">
     <link rel="apple-touch-icon" href="../img/favicons/Favicon180.jpg">
@@ -51,11 +54,11 @@
   <link rel="alternate" hreflang="it" href="https://wematcher.com/it/accordo-per-gli-utenti/">
 
   <link rel="alternate" hreflang="ru" href="https://wematcher.com/ru/">
-  <link rel="alternate" hreflang="ru" href="https://wematcher.com/ru/о-нас/">
-  <link rel="alternate" hreflang="ru" href="https://wematcher.com/ru/политика-cookie/">
-  <link rel="alternate" hreflang="ru" href="https://wematcher.com/ru/зарабатывай-онлайн/">
-  <link rel="alternate" hreflang="ru" href="https://wematcher.com/ru/политика-конфиденциальности/">
-  <link rel="alternate" hreflang="ru" href="https://wematcher.com/ru/пользовательское-соглашение/">
+  <link rel="alternate" hreflang="ru" href="https://wematcher.com/ru/about/">
+  <link rel="alternate" hreflang="ru" href="https://wematcher.com/ru/cookie-policy/">
+  <link rel="alternate" hreflang="ru" href="https://wematcher.com/ru/make-money-online/">
+  <link rel="alternate" hreflang="ru" href="https://wematcher.com/ru/privacy-policy/">
+  <link rel="alternate" hreflang="ru" href="https://wematcher.com/ru/user-agreement/">
 
   <link rel="alternate" hreflang="en" href="https://wematcher.com/">
   <link rel="alternate" hreflang="en" href="https://wematcher.com/about/">
@@ -89,7 +92,10 @@
     <div class="widget" id="wematcher_widget">
     </div>
 
-
+    <!-- Temporary-background before the App works -->
+    <div class="temporary-background ">
+      <div class="temporary-background-title">mobile version <br> coming soon</div>
+    </div>
 
     <!--Learnabout section-->
     <div class="learnabout">
@@ -107,20 +113,22 @@
       <!-- // Social share button -->
 
       <!-- Language switcher -->
-      <div class="language-switcher btn-group">
-        <div class="language-switcher__dropdown-menu dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
-          aria-expanded="false">
-          <span class="language-name">Русский</span>
-        </div>
-        <div class="dropdown-menu dropdown-menu-right">
-          <a rel="alternate" hreflang="it" href="../it/" class="dropdown-item language-switcher__italian">
-            <span class="language-name">Итальянский</span>
-          </a>
-          <a rel="alternate" hreflang="en" href="../" class="dropdown-item language-switcher__english">
-            <span class="language-name">Английский</span>
-          </a>
-        </div>
-      </div>          
+      <div class="container language-switcher-wrap">
+        <div class="language-switcher btn-group">
+          <div class="language-switcher__dropdown-menu dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            <span class="language-name">Русский</span>
+          </div>
+          <div class="dropdown-menu dropdown-menu-right">
+            <a rel="alternate" hreflang="it" href="../it/" class="dropdown-item language-switcher__italian">
+              <span class="language-name">Итальянский</span>
+            </a>
+            <a rel="alternate" hreflang="en" href="../" class="dropdown-item language-switcher__english">
+              <span class="language-name">Английский</span>
+            </a>
+          </div>
+        </div>          
+      </div>
       <!-- // Language switcher -->
 
       <section class="container section">
@@ -129,26 +137,26 @@
         </div>
         <div class="learnabout__icon hvr-wobble-vertical"><a href="#learnabout"><i class="fa fa-caret-down fa-4x"></i></a></div>
         <div class="row">
-          <div class="col-md-6" data-aos="fade-right"><img src="../img/1.jpg" alt="WeMatcher: Free Chat &amp; Dating"></div>
+          <div class="col-md-6"><img src="../img/1.jpg" alt="WeMatcher: Free Chat &amp; Dating"></div>
           <div class="col-md-6">
             <div class="section__text">
               <div class="section__text-title" id="learnabout">
                 <h1>WeMatcher: Бесплатный Чат & Свидания</h1>
               </div>
-              <div class="section__text-text" data-aos="fade-left">
+              <div class="section__text-text">
                 <p>Добро пожаловать в WeMatcher – новую Социальную Сеть Свиданий, созданную чтобы помочь ВАМ встретить миллионы новых друзей со всего мира, с комфортом используя имеющееся у вас устройство для связи. Начните сейчас, просто кликнув на кнопку чтобы Поговорить с Незнакомцами, используя уникальный Чат Рулетку, или сёрфите по тысячам профилей чтобы найти идеальное соответствие в Бесплатном чате в сессии Свидания. </p>
               </div>
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-6 order-md-2" data-aos="fade-left"><img src="../img/2.jpg" alt="Wondering Why WeMatcher?"></div>
+          <div class="col-md-6 order-md-2"><img src="../img/2.jpg" alt="Wondering Why WeMatcher?"></div>
           <div class="col-md-6 order-md-1">
             <div class="section__text">
               <div class="section__text-title">
                 <h3>Думаете Почему WeMatcher?</h3>
               </div>
-              <div class="section__text-text" data-aos="fade-right">
+              <div class="section__text-text">
                 <p>В WeMatcher мы верим в свободу и уважение. Это причина по которой мы построили платформу для совершеннолетних что Общаться с Незнакомцами, встречаться, флиртовать и взаимодействовать без границ. Участники сети, в первую очередь это люди, которые в гармонии с друг другом. Это люди которые уважают друг друга и желают обмениваться благами между собой. Именно поэтому WeMatcher создан как полностью Бесплатный Чат который позволяет виртуальным друзьям обмениваться подарками между собой.</p>
               </div>
             </div>
@@ -160,9 +168,8 @@
       </section>
     </div>
     <!-- //Learnabout section-->
-
     <!--Keyfigures-->
-    <div class="container keyfigures" data-aos="flip-left">
+    <div class="container keyfigures">
       <div class="keyfigures__line"></div>
       <div class="row">
         <div class="col-md-4">
@@ -187,9 +194,8 @@
       <div class="keyfigures__line"></div>
     </div>
     <!-- //Keyfigures-->
-
     <!-- Keyfeatures-->
-    <div class="container keyfeatures" data-aos="fade-up">
+    <div class="container keyfeatures">
       <div class="row">
         <div class="col-6">
           <div class="keyfeatures__title">
@@ -203,7 +209,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-6" data-aos="fade-left">
+        <div class="col-6">
           <div class="keyfeatures__block clearfix">
             <div class="keyfeatures__block-icon order-md-2 right"><img class="circle-border" src="../img/icons/Features/icons8-anime.svg" alt="Choose Unique Avatars"></div>
             <div class="keyfeatures__block-text order-md-1 right">Выбор Уникального Аватара</div>
@@ -225,7 +231,7 @@
             <div class="keyfeatures__block-text order-md-1 right">Добавлять Друзей & Общаться</div>
           </div>
         </div>
-        <div class="col-6" data-aos="fade-right">
+        <div class="col-6">
           <div class="keyfeatures__block clearfix">
             <div class="keyfeatures__block-icon left"><img class="circle-border" src="../img/icons/Features/icons8-hide.svg" alt="Completely Anonymous"></div>
             <div class="keyfeatures__block-text left">Полная Анонимность</div>
@@ -255,26 +261,26 @@
     <div class="learnabout">
       <section class="container section">
         <div class="row">
-          <div class="col-md-6" data-aos="fade-right"><img src="../img/3.jpg" alt="WeMatcher is Open to Everyone"></div>
+          <div class="col-md-6"><img src="../img/3.jpg" alt="WeMatcher is Open to Everyone"></div>
           <div class="col-md-6">
             <div class="section__text">
               <div class="section__text-title">
                 <h4>WeMatcher Открыт для Каждого</h4>
               </div>
-              <div class="section__text-text" data-aos="fade-left">
+              <div class="section__text-text">
                 <p>Всем рады в WeMatcher, включая ВАС. Если вы старше 18 лет, Вы приятный, уважительный и воспитанный человек, ничего не остановит Вас от того чтобы присоединиться к крупнейшей Социальной Сети Свиданий из когда-либо созданных. Для на очень высокое значение имеет ваша свобода, мы хотим, чтобы Вы решали с кем Вы хотите быть выбирая из одного или многих полов: Мужчины, Женщины, Пары (или Группы) и Трансы. Ваша сексуальная ориентация — это то что делает вас уникальным, и в WeMatcher мы любим уникальных людей! Сохраните ваш настоящий возраст приватным, Вы можете выбирать ваш возраст (одиночный выбор) и возраст партнёров которых Вы хотите встретить (множественный выбор).</p>
               </div>
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-6 order-md-2" data-aos="fade-left"><img src="../img/4.jpg" alt="No Registration Needed"></div>
+          <div class="col-md-6 order-md-2"><img src="../img/4.jpg" alt="No Registration Needed"></div>
           <div class="col-md-6 order-md-1">
             <div class="section__text">
               <div class="section__text-title">
                 <h3>Без Регистрации</h3>
               </div>
-              <div class="section__text-text" data-aos="fade-right">
+              <div class="section__text-text">
                 <p>Чтобы присоединиться и начать использовать наш Бесплатный Случайный Чат Вам не нужно регистрироваться. В действительности, ВЫ можете начать поиск и Говорить с незнакомцами в всего за несколько секунд. Когда вы начнёте поиск случайного партнёра для Бесплатного Общения, ваша веб камера автоматически будет активирована, и Вы будете соединены в Видео Чат с незнакомым человеком за несколько секунд. Партнёр будет подобран исходя из ваших половых предпочтений. Однако мы все же очень рекомендуем Вам зарегистрироваться и создать полностью анонимный профиль, используя фото или аватар, привлекательный псевдоним и указать ваши предпочтения. Регистрация позволит вам использовать ВСЕ возможности, и вы получите полный доступ к вашему персональному WM Coins кошельку. Кроме того, только зарегистрированные пользователи могут добавлять друзей, посылать и получать подарки, а также делать прямые видео звонки.</p>
               </div>
             </div>
@@ -294,11 +300,11 @@
             <div class="footer__support-link"><a href="mailto:support@wematcher.com">support@wematcher.com</a></div>
             <nav class="footer__links">
               <ul>
-                <li><a class="footer__links-item" href="о-нас/" target="_self">О нас</a></li>
-                <li><a class="footer__links-item" href="зарабатывай-онлайн/" target="_self">зарабатывай онлайн</a></li>
-                <li><a class="footer__links-item" href="политика-конфиденциальности/" target="_self">политика конфиденциальности</a></li>
-                <li><a class="footer__links-item" href="политика-cookie/" target="_self">политика cookie</a></li>
-                <li><a class="footer__links-item" href="пользовательское-соглашение/" target="_self">пользовательское соглашение</a></li>
+                <li><a class="footer__links-item" href="about/" target="_self">О нас</a></li>
+                <li><a class="footer__links-item" href="make-money-online/" target="_self">зарабатывай онлайн</a></li>
+                <li><a class="footer__links-item" href="privacy-policy/" target="_self">политика конфиденциальности</a></li>
+                <li><a class="footer__links-item" href="cookie-policy/" target="_self">политика cookie</a></li>
+                <li><a class="footer__links-item" href="user-agreement/" target="_self">пользовательское соглашение</a></li>
               </ul>
             </nav>
             <div class="footer__line"></div>
@@ -315,7 +321,8 @@
       </div>
     </footer>
     <!-- //Footer-->
-    
+    <button class="share-button" href="#">share&invite</button>
+
     <!-- Vendors scripts-->
     <!--
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
