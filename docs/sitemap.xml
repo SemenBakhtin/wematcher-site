@@ -16,7 +16,7 @@
       <url>
       <loc>https://www.wematcher.com/about/</loc>
       <xhtml:link rel="alternate" hreflang="ru" href="https://www.wematcher.com/ru/about/" /> 
-      <xhtml:link rel="alternate" hreflang="it" href="https://www.wematcher.com/it/su-di-noi/" /> 
+      <xhtml:link rel="alternate" hreflang="it" href="https://www.wematcher.com/it/about/" /> 
       <xhtml:link rel="alternate" hreflang="x-default" href="https://www.wematcher.com/about/" />
       <lastmod>2020-01-10</lastmod>
       <changefreq>yearly</changefreq>
@@ -25,7 +25,7 @@
     <url>
       <loc>https://www.wematcher.com/cookie-policy/</loc>
       <xhtml:link rel="alternate" hreflang="ru" href="https://www.wematcher.com/ru/cookie-policy/" /> 
-      <xhtml:link rel="alternate" hreflang="it" href="https://www.wematcher.com/it/gestione-dei-cookie/" /> 
+      <xhtml:link rel="alternate" hreflang="it" href="https://www.wematcher.com/it/cookie-policy/" /> 
       <xhtml:link rel="alternate" hreflang="x-default" href="https://www.wematcher.com/cookie-policy/" />
       <lastmod>2020-01-10</lastmod>
       <changefreq>yearly</changefreq>
@@ -34,7 +34,7 @@
     <url>
       <loc>https://www.wematcher.com/make-money-online/</loc>
       <xhtml:link rel="alternate" hreflang="ru" href="https://www.wematcher.com/ru/make-money-online/" /> 
-      <xhtml:link rel="alternate" hreflang="it" href="https://www.wematcher.com/it/guadagnare-online/" />
+      <xhtml:link rel="alternate" hreflang="it" href="https://www.wematcher.com/it/make-money-online/" />
       <xhtml:link rel="alternate" hreflang="x-default" href="https://www.wematcher.com/make-money-online/" /> 
       <lastmod>2020-01-10</lastmod>
       <changefreq>yearly</changefreq>
@@ -43,7 +43,7 @@
     <url>
       <loc>https://www.wematcher.com/user-agreement/</loc>
       <xhtml:link rel="alternate" hreflang="ru" href="https://www.wematcher.com/ru/user-agreement/" /> 
-      <xhtml:link rel="alternate" hreflang="it" href="https://www.wematcher.com/it/accordo-per-gli-utenti/" /> 
+      <xhtml:link rel="alternate" hreflang="it" href="https://www.wematcher.com/it/user-agreement/" /> 
       <xhtml:link rel="alternate" hreflang="x-default" href="https://www.wematcher.com/user-agreement/" />
       <lastmod>2020-01-10</lastmod>
       <changefreq>yearly</changefreq>
@@ -72,7 +72,7 @@
       <url>
       <loc>https://www.wematcher.com/ru/about/</loc>
       <xhtml:link rel="alternate" hreflang="en" href="https://www.wematcher.com/about/" />
-      <xhtml:link rel="alternate" hreflang="it" href="https://www.wematcher.com/it/su-di-noi/" /> 
+      <xhtml:link rel="alternate" hreflang="it" href="https://www.wematcher.com/it/about/" /> 
       <xhtml:link rel="alternate" hreflang="x-default" href="https://www.wematcher.com/about/" />
       <lastmod>2020-01-10</lastmod>
       <changefreq>yearly</changefreq>
@@ -81,7 +81,7 @@
     <url>
       <loc>https://www.wematcher.com/ru/cookie-policy/</loc>
       <xhtml:link rel="alternate" hreflang="en" href="https://www.wematcher.com/cookie-policy/" />
-      <xhtml:link rel="alternate" hreflang="it" href="https://www.wematcher.com/it/gestione-dei-cookie/" /> 
+      <xhtml:link rel="alternate" hreflang="it" href="https://www.wematcher.com/it/cookie-policy/" /> 
       <xhtml:link rel="alternate" hreflang="x-default" href="https://www.wematcher.com/cookie-policy/" />
       <lastmod>2020-01-10</lastmod>
       <changefreq>yearly</changefreq>
@@ -90,7 +90,7 @@
     <url>
       <loc>https://www.wematcher.com/ru/make-money-online/</loc>
       <xhtml:link rel="alternate" hreflang="en" href="https://www.wematcher.com/make-money-online/" /> 
-      <xhtml:link rel="alternate" hreflang="it" href="https://www.wematcher.com/it/guadagnare-online/" />
+      <xhtml:link rel="alternate" hreflang="it" href="https://www.wematcher.com/it/make-money-online/" />
       <xhtml:link rel="alternate" hreflang="x-default" href="https://www.wematcher.com/make-money-online/" /> 
       <lastmod>2020-01-10</lastmod>
       <changefreq>yearly</changefreq>
@@ -99,7 +99,7 @@
     <url>
       <loc>https://www.wematcher.com/ru/user-agreement/</loc>
       <xhtml:link rel="alternate" hreflang="en" href="https://www.wematcher.com/user-agreement/" />
-      <xhtml:link rel="alternate" hreflang="it" href="https://www.wematcher.com/it/accordo-per-gli-utenti/" /> 
+      <xhtml:link rel="alternate" hreflang="it" href="https://www.wematcher.com/it/user-agreement/" /> 
       <xhtml:link rel="alternate" hreflang="x-default" href="https://www.wematcher.com/user-agreement/" />
       <lastmod>2020-01-10</lastmod>
       <changefreq>yearly</changefreq>
@@ -127,7 +127,7 @@
     </url>
 
       <url>
-      <loc>https://www.wematcher.com/it/su-di-noi/</loc>
+      <loc>https://www.wematcher.com/it/about/</loc>
       <xhtml:link rel="alternate" hreflang="en" href="https://www.wematcher.com/about/" />
       <xhtml:link rel="alternate" hreflang="ru" href="https://www.wematcher.com/ru/about/" /> 
       <xhtml:link rel="alternate" hreflang="x-default" href="https://www.wematcher.com/about/" />
@@ -136,7 +136,7 @@
     </url>
 
     <url>
-      <loc>https://www.wematcher.com/it/gestione-dei-cookie/</loc>
+      <loc>https://www.wematcher.com/it/cookie-policy/</loc>
       <xhtml:link rel="alternate" hreflang="en" href="https://www.wematcher.com/cookie-policy/" />
       <xhtml:link rel="alternate" hreflang="ru" href="https://www.wematcher.com/ru/cookie-policy/" /> 
       <xhtml:link rel="alternate" hreflang="x-default" href="https://www.wematcher.com/cookie-policy/" />
@@ -145,7 +145,7 @@
     </url>
 
     <url>
-      <loc>https://www.wematcher.com/it/guadagnare-online/</loc>
+      <loc>https://www.wematcher.com/it/make-money-online/</loc>
       <xhtml:link rel="alternate" hreflang="en" href="https://www.wematcher.com/make-money-online/" />
       <xhtml:link rel="alternate" hreflang="ru" href="https://www.wematcher.com/ru/make-money-online/" /> 
       <xhtml:link rel="alternate" hreflang="x-default" href="https://www.wematcher.com/make-money-online/" /> 
@@ -154,7 +154,7 @@
     </url>
 
     <url>
-      <loc>https://www.wematcher.com/it/accordo-per-gli-utenti/</loc>
+      <loc>https://www.wematcher.com/it/user-agreement/</loc>
       <xhtml:link rel="alternate" hreflang="en" href="https://www.wematcher.com/user-agreement/" />
       <xhtml:link rel="alternate" hreflang="ru" href="https://www.wematcher.com/ru/user-agreement/" /> 
       <xhtml:link rel="alternate" hreflang="x-default" href="https://www.wematcher.com/user-agreement/" />
@@ -163,7 +163,7 @@
     </url>
 
     <url>
-      <loc>https://wematcher.com/it/politica-sulla-riservatezza/</loc>
+      <loc>https://wematcher.com/it/privacy-policy/</loc>
       <xhtml:link rel="alternate" hreflang="en" href="https://www.wematcher.com/privacy-policy/" />
       <xhtml:link rel="alternate" hreflang="ru" href="https://www.wematcher.com/ru/privacy-policy/" /> 
       <xhtml:link rel="alternate" hreflang="x-default" href="https://www.wematcher.com/privacy-policy/" />
