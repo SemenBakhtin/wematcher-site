@@ -571,7 +571,7 @@ figcuption {
   justify-content: space-around;
 }
 .banners-img-block--horizontal {
-  justify-content: left;
+  display: inline-grid;
 }
 /* ==========================================================================
    Section
